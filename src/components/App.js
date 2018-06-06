@@ -16,10 +16,10 @@ componentWillMount(){
   fetchTweets()
 }
 componentDidMount(){
-  
+  startInterval()
 }
 componentWillUnmount(){
-  
+
 }
   // TODO: componentWillMount()
   // TODO: componentDidMount()
