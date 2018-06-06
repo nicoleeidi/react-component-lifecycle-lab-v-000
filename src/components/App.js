@@ -19,7 +19,7 @@ componentDidMount(){
   startInterval()
 }
 componentWillUnmount(){
-
+  cleanUpInterval()
 }
   // TODO: componentWillMount()
   // TODO: componentDidMount()
